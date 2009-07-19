@@ -132,6 +132,8 @@ class exif_Core {
         "Sharpness"       => array("SubIFD", "Sharpness",         t("Sharpness"),        ),
         "SubjectDistance" => array("SubIFD", "SubjectDistance",   t("Subject Distance"), ),
         "Caption"         => array("IPTC",   "Caption",           t("Caption"),          ),
+        "Latitude"        => array("GPS",    "Latitude",          t("GPS: Latitude"),    ),
+        "Longitude"       => array("GPS",    "Longitude",         t("GPS: Longitude"),   ),
         "Keywords"        => array("IPTC",   "Keywords",          t("Keywords"),         )
       );
     }
